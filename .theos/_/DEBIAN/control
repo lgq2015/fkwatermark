@@ -1,9 +1,10 @@
 Package: com.xia0.fkwatermark
 Name: fkwatermark
 Depends: mobilesubstrate
-Version: 0.0.1
 Architecture: iphoneos-arm
 Description: remove watermark when video download。短视频下载去水印，目前支持有皮皮搞笑，抖音，皮皮虾
 Maintainer: xia0
 Author: xia0
 Section: Tweaks
+Version: 0.0.1-48+debug
+Installed-Size: 344

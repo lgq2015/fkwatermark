@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>默认下载视频开启去水印功能（支持皮皮搞笑、抖音、皮皮虾）</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.xia0.fkwatermarkPref</string>
+			<key>key</key>
+			<string>kisRmoveWatermark</string>
+			<key>label</key>
+			<string>开启去水印</string>
+			<key>PostNotification</key>
+			<string>com.xia0.fkwatermarkPref/settingschanged</string>
+		</dict>
+		
+		<dict>
+			<key>label</key>
+			<string>About and Source Code</string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+<!-- 			<key>footerText</key>
+			<string>Developed by GN-OS © 2013</string> -->
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>gotoBlog</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>newxia0.ico</string>
+			<key>label</key>
+			<string>Blog About Me</string>
+		</dict>
+
+		<dict>
+			<key>action</key>
+			<string>gotoGithub</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>github.ico</string>
+			<key>label</key>
+			<string>Github Source Code</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>alignment</key>
+			<integer>1</integer>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>label</key>
+			<string>Developed By xia0@2019</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>FKWatermark</string>
+</dict>
+</plist>
